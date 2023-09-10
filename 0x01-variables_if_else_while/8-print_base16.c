@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i;
+	char i;
 
-	char j;
+	int j;
 
 	i = 'a';
 	j = 0;
