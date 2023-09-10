@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - main functions
  *
  * Return: 0 always
  */
@@ -8,8 +8,12 @@ int main(void)
 {
 	int i;
 
-	for (i = 0 ; i < 10 ; i++)
-		putchar((i % 10) + '0');
-	printf("\n");
+	i = 0;
+	while
+		(i < 10) {
+			putchar(i + '0');
+			i++;
+		}
+	putchar('\n');
 	return (0);
 }
