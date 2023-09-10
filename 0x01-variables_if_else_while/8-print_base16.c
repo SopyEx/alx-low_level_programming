@@ -7,12 +7,21 @@
 int main(void)
 {
 	int i;
+
 	char j;
 
-	for (i = 0 ; i < 10 ; i++)
-		putchar((i % 10) + '0');
-	for (j = 'a' ; 'j' <= 'f' ; j++)
-		putchar(j);
+	i = 'a';
+	j = 0;
+	while
+		(j < 100) {
+			putchar(j + '0');
+			j++;
+		}
+	while
+		(i <= 'f') {
+			putchar(i);
+			i++;
+		}
 	putchar('\n');
 	return (0);
 }
