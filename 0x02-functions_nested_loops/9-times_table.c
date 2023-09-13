@@ -15,7 +15,7 @@ void times_table(void)
 		_putchar(48);
 		for (nult = 1; nult <= 9; nult++)
 		{
-			_putchar('.');
+			_putchar(',');
 			_putchar(' ');
 
 			prod = num * nult;
