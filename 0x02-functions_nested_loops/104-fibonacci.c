@@ -1,5 +1,5 @@
 #include"main.h"
-
+#include <stdio.h>
 /**
  * nurlength - returns the length of string
  * @num: operand number
@@ -34,7 +34,7 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		inital0s = nurlength(nx) - 1 - nurlength(f1);
+		initial0s = nurlength(nx) - 1 - nurlength(f1);
 
 		while (f1o > 0 && initial0s > 0)
 		{
