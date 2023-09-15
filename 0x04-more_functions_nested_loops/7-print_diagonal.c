@@ -1,5 +1,5 @@
 #include"main.h"
-
+#include <stdio.h>
 /**
  * print_diagonal - prints diagonla using the '\' character
  * @n: number of times
