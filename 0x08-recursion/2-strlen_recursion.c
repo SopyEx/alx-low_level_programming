@@ -1,4 +1,4 @@
-#inculde"main.h"
+#include"main.h"
 /**
  * _strlen_recursion- main function
  * @s: string to be measured
